@@ -14,7 +14,6 @@ def calc_bert_score(cands, refs):
     return F1.numpy().tolist() #F1のみ返す
 
 if __name__ == "__main__":
-    """ サンプル実行 """
     with open("hyps.txt") as f:
         cands = [line.strip() for line in f]
 
