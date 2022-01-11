@@ -5,7 +5,7 @@ calc BLEU1,2,3,4  METEOR  BERTscore
 
 ## セットアップ
 ```bash
-conda create -n NLPsample
+conda create -n NLPsample  python=3.8
 conda activate NLPsample
 pip install bert-score
 pip install -U nltk --user
